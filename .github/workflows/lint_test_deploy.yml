@@ -10,4 +10,10 @@ jobs:
               run: npm ci
             - name: Do the Lint
               run: npm run lint
+            - name: Testing
+              run: npm run test
+            - name: Build
+              run: npm run build
+            - name: Deploy leikisti
+              run: echo "deploy leikisti..."
 
